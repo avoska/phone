@@ -1,10 +1,27 @@
-@font-face {
+@media (min-width: 2000px) and (max-width: 2500px) {
+    .logo{
+        padding-left: 5%;
+    }
+    .menu{
 
-    font-family: ;
+        padding-right: 15%;
+
+    }
+
+}
+@media (min-width: 2501px) and (max-width: 3500px) {
+    .logo{
+        padding-left: 10%;
+    }
+}
+@font-face {
+    font-family: Gotham-book ;
     src: url(../fonts/Gotham-book.ttf);
     src: url(../fonts/Montserrat-Regular.otf);
     src: url(../fonts/Montserrat-UltraLight.otf);
 }
+
+
 body{
     background: url("../img/body_bg.png") center no-repeat;
 }
@@ -13,10 +30,11 @@ html, body {
     height: 1150px;
 }
 .logo{
-    top: 22px;
+
 }
 .menu{
-    top: 35px;
+    padding-top: 20px;
+
 
 }
 .menu_btn{
@@ -30,3 +48,97 @@ html, body {
     color: #14ffb4;
 
 }
+.white{
+    color: white;
+}
+
+.body_text{
+    font-family: Tahoma;
+    font-size: 15px;
+}
+.btn_success{
+    top: 20px;
+
+}
+.btn-success{
+
+    height: 52px;
+    width: 172px;
+}
+.btn-success:hover{
+    color: #14ffb4 ;
+
+}
+.btn_text{
+    padding-top: 10px;
+
+}
+.form_pos{
+
+}
+.form_header{
+    padding-left: 15px;
+    color: #FF8A80;
+    font-size: 22px;
+}
+.form-control{
+    font-family: Gotham-book ;
+    width: 150%;
+
+    border-radius: 2px;
+    margin-right: 23px;
+    margin-bottom: 20px;
+}
+.ddbtn{
+    color: #a8a59d;
+    font-family:  Gotham-book;
+    width: 150%;
+}
+.caret{
+    color: #14ffb4;
+}
+.form_control{
+
+}
+.btn-danger{
+    border-radius: 5px;
+    width: 40%;
+
+}
+
+.footer_mail{
+    font-family: Gotham-book;
+    font-size: 25px;
+
+    
+}
+.glyphicon-envelope{
+    color: #00ffb6;
+
+}
+
+.fer{
+    color: #0f0f0f;
+}
+.fer:hover{
+    color: #0f0f0f;
+}
+.rw1{
+    padding-top: 22px;
+
+}
+
+.rw2{
+    padding-top: 200px;
+}
+
+.rw3{
+    padding-top: 180px;
+}
+.rw4{
+
+    margin-top: 100px;
+    background-color: #E9463F;
+}
+
+
